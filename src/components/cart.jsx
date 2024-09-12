@@ -33,7 +33,7 @@ function Cart() {
                 <div className="container">
                     <div>
                     <ol className="cartItems">
-                        {items.map(item => {
+                        {(items || []).map(item => {
                             return (
                                 <li className="cartItem" key={item.id}>
                                     <button className="remove" onClick={() => handleRemove(item)}>x</button>
