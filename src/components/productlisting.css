@@ -52,4 +52,8 @@
         grid-template-columns: 350px;
         row-gap: 50px;
     }
+
+    .header{
+        text-align: center;
+    }
 }
