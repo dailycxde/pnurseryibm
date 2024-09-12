@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+:root {
+    --primary-color: #80b622;
+    --text: white;
+}
+
+.main {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10%;
+    padding-inline: 10%;
+    color: var(--text)
+}
+
+.abtus1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.abtus2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mtitle{
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.line {
+    color: var(--primary-color);
+}
+
+.quote {
+    font-style: italic;
+}
+
+.getStarted {
+    font-size: 20px;
+    color: var(--text);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.bg {
+    position: fixed;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+span {
+    color: var(--primary-color);
+}
+
+
+.shop {
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgba(255,255,255,0.9)
+}
+
+
+.close-btn, .cntn-btn {
+    font-size: 20px;
+    color: var(--text);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    position: fixed;
+    margin-top: 34px;
+    z-index: 1000;
+}
+
+.cntn-btn {
+    top: 150px;
+}
+
+.Cstyle {
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    z-index: 1010;
+    background-color: transparent;
+    border: none
+}
+
+.Istyle {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    opacity: 1;
+}
+
+
+.cartPage {
+    padding-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgba(255,255,255,0.9)
+}
+
+.tqicon {
+    z-index: 1002;
+    background-color: #80b622;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding-inline: 5%;
+        margin-bottom: 40px;
+    }
+
+    .abtus2 {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .mtitle {
+        font-size: 30px;
+    }
+
+    .getStarted {
+        font-size: 16px;
+        padding: 8px;
+        margin-bottom: 50px;
+    }
+
+    .bg {
+        padding-top: 0px;
+    }
+
+    .close-btn, .cntn-btn {
+        font-size: 16px;
+        padding: 8px;    
+    }
+
+    .cntn-btn {
+        top: 70px;
+    }
+
+    .close-btn{
+        margin-top: 10px;
+    }
+
+    .shop, .cartPage {
+        padding-top: 50px;
+    }
+
+    .tqicon {
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+    }
+
+    button.Cstyle {
+        height: 30px;
+        width: 30px;
+        top: 16px;
+        right: 30px;
+    }
+
+    .cart img {
+        height: 100%;
+        width: 100%;
+    }
+}
