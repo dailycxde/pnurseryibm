@@ -162,8 +162,8 @@ span {
         flex-direction: column;
         padding-inline: 10%;
         margin-bottom: 40px;
-        padding-top: 70px;
-        padding-bottom: 30px;
+        padding-top: 120px;
+        padding-bottom: 50px;
     }
 
     .abtus1{
@@ -176,6 +176,10 @@ span {
 
     h3 {
         font-size: 25px;
+    }
+
+    .line{
+        font-size: 10px;
     }
 
     p {
