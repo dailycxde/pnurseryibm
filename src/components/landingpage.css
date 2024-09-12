@@ -36,7 +36,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 400px;
-    height: 900px;
 }
 
 
@@ -171,6 +170,7 @@ span {
 
     .abtus2 {
         width: 400px;
+        font-size: 70%;
     }
 
     h3 {
