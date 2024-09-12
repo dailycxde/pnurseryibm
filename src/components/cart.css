@@ -163,7 +163,7 @@
     }
 
     .cartItems {
-      grid-template-columns: 105%;
+      grid-template-columns: 450px;
     }
 
     .details{
