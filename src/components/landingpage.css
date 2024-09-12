@@ -16,6 +16,8 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
     column-gap: 10%;
     padding-inline: 10%;
     color: var(--text)
@@ -72,6 +74,8 @@ p {
     position: fixed;
     z-index: -1;
     opacity: 0.2;
+    height: 100%;
+    width: 100%;
 }
 
 
