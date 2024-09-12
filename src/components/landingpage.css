@@ -19,7 +19,6 @@ body {
     padding-inline: 10%;
     color: var(--text);
     height: 100vh;
-    overflow-y: overlay;
 }
 
 .abtus1 {
