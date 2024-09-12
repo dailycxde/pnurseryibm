@@ -162,6 +162,8 @@ span {
         flex-direction: column;
         padding-inline: 10%;
         margin-bottom: 40px;
+        padding-top: 70px;
+        padding-bottom: 30px;
     }
 
     .abtus1{
