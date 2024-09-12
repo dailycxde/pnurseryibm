@@ -20,6 +20,7 @@ body {
     padding-inline: 10%;
     color: var(--text);
     height: 100vh;
+    overflow-y: scroll;
 }
 
 .abtus1 {
@@ -171,7 +172,6 @@ span {
 
     .abtus2 {
         width: 400px;
-        font-size: 60%;
     }
 
     h3 {
