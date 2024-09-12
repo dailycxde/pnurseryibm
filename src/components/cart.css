@@ -163,7 +163,10 @@
     }
 
     .cartItems {
-      grid-template-columns: 390px;
+      display: block;
+      position: absolute;
+      right: 10px;
+      left: 10px;
     }
 
     .details{
