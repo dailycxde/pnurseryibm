@@ -163,10 +163,8 @@
     }
 
     .cartItems {
-      display: block;
-      position: absolute;
-      right: 10px;
-      left: 10px;
+        grid-template-columns: auto;
+        padding-inline: 10px;
     }
 
     .details{
