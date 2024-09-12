@@ -11,7 +11,7 @@ body {
 .main {
     position: relative;
     padding-top: 136px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +86,7 @@ span {
 
 .shop {
     padding-top: 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     overflow-y: scroll;
     background-color: rgba(255,255,255,0.9)
@@ -131,7 +131,7 @@ span {
 
 .cartPage {
     padding-top: 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     height: 100vh;
     overflow-y: scroll;
     background-color: rgba(255,255,255,0.9)
