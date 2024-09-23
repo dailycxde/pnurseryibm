@@ -32,9 +32,9 @@ body {
     max-width: 45%; 
     max-height: 90vh;
     box-sizing: border-box;
-    flex-shrink: 0;
+    flex-shrink: 1; /* Allow shrinking on zoom */
+    font-size: calc(1rem + 0.5vw); /* Responsive text sizing */
 }
-
 
 h3 {
     font-size: 35px;
@@ -42,7 +42,7 @@ h3 {
     margin: 0;
 }
 
-.mtitle{
+.mtitle {
     font-size: 40px;
 }
 
@@ -65,6 +65,7 @@ p {
     border: none;
     border-radius: 2px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .bg {
@@ -75,20 +76,17 @@ p {
     width: 100%;
 }
 
-
 span {
     color: var(--primary-color);
 }
-
 
 .shop {
     padding-top: 100px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     overflow-y: scroll;
-    background-color: rgba(255,255,255,0.9)
+    background-color: rgba(255,255,255,0.9);
 }
-
 
 .close-btn, .cntn-btn {
     width: 10px;
@@ -102,9 +100,10 @@ span {
     margin-top: 34px;
     z-index: 2000;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.close-btn:hover, .cntn-btn:hover{
+.close-btn:hover, .cntn-btn:hover {
     width: 150px;
     color: var(--text);
 }
@@ -122,7 +121,8 @@ span {
     top: 40px;
     z-index: 1010;
     background-color: transparent;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
 .Istyle {
@@ -132,13 +132,12 @@ span {
     opacity: 1;
 }
 
-
 .cartPage {
     padding-top: 100px;
     font-family: sans-serif;
     height: 100vh;
     overflow-y: scroll;
-    background-color: rgba(255,255,255,0.9)
+    background-color: rgba(255,255,255,0.9);
 }
 
 .tqicon {
@@ -170,7 +169,7 @@ span {
         overflow-y: hidden;
     }
 
-    .abtus1{
+    .abtus1 {
         margin-top: 50px;
     }
 
@@ -182,7 +181,7 @@ span {
         font-size: 25px;
     }
 
-    .line{
+    .line {
         font-size: 10px;
     }
 
@@ -208,15 +207,15 @@ span {
         opacity: 1;
         width: 130px;
         font-size: 16px;
-        padding: 8px;   
-        color: white; 
+        padding: 8px;
+        color: white;
     }
 
     .cntn-btn {
         top: 70px;
     }
 
-    .close-btn{
+    .close-btn {
         margin-top: 10px;
     }
 
