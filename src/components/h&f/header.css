@@ -1,7 +1,7 @@
 .div{    
     position: fixed;
     display: flex;
-    height: 100;
+    height: 100px;
     width: 100%;
     background-color: #3b5703;
     align-items: center;
@@ -18,6 +18,8 @@
 }
 
 @media (max-width: 768px){
+
+    
     .hp{
         font-size: 20px;
     }

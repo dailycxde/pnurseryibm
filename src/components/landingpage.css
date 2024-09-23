@@ -21,6 +21,8 @@ body {
     height: 100vh;
     overflow-y: hidden;
     box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .abtus1, .abtus2 {
@@ -29,11 +31,11 @@ body {
     align-items: center;
     justify-content: center;
     width: 45%;
-    max-width: 45%; 
-    max-height: 90vh;
+    max-width: 45%;
     box-sizing: border-box;
-    flex-shrink: 1; /* Allow shrinking on zoom */
-    font-size: calc(1rem + 0.5vw); /* Responsive text sizing */
+    flex-shrink: 1;
+    font-size: calc(1rem + 0.5vw);
+    padding: 20px;
 }
 
 h3 {
@@ -167,6 +169,7 @@ span {
         padding-top: 120px;
         padding-bottom: 50px;
         overflow-y: hidden;
+        max-width: 100%;
     }
 
     .abtus1 {
@@ -175,6 +178,7 @@ span {
 
     .abtus2 {
         width: 100%;
+        max-width: 100%;
     }
 
     h3 {
