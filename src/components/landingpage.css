@@ -19,7 +19,7 @@ body {
     padding-inline: 100px;
     color: var(--text);
     height: 100vh;
-    column-width: 1500px;
+    overflow-y: hidden;
     box-sizing: border-box;
 }
 
@@ -28,13 +28,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 100%;
+    width: 45%;
+    max-width: 45%; 
     max-height: 90vh;
-    width: 100%;
-    height: auto;
     box-sizing: border-box;
     flex-shrink: 0;
 }
+
 
 h3 {
     font-size: 35px;
