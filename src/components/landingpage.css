@@ -10,19 +10,17 @@ body {
 
 .main {
     position: relative;
-    padding-top: 136px;
+    padding-top: 100px;
     font-family: sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 10%;
-    padding-inline: 100px;
+    padding-inline: 10%;
     color: var(--text);
     height: 100vh;
     overflow-y: hidden;
     box-sizing: border-box;
-    max-width: 1200px;
-    margin: auto;
 }
 
 .abtus1, .abtus2 {
