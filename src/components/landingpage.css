@@ -19,6 +19,7 @@ body {
     padding-inline: 10%;
     color: var(--text);
     height: 100vh;
+    overflow-y: scroll;
 }
 
 .abtus1 {
@@ -171,6 +172,7 @@ span {
         margin-bottom: 40px;
         padding-top: 120px;
         padding-bottom: 50px;
+        overflow-y: hidden;
     }
 
     .abtus1{
