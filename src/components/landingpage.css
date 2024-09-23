@@ -160,8 +160,7 @@ span {
     right: 0;
 }
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1250px) {
     .main {
         flex-direction: column;
         padding-inline: 10%;
