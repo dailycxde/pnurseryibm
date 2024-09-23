@@ -19,11 +19,11 @@ body {
     padding-inline: 10%;
     color: var(--text);
     height: 100vh;
+    column-width: 35%;
     overflow-y: scroll;
 }
 
 .abtus1 {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,6 @@ body {
 }
 
 .abtus2 {
-    flex: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
