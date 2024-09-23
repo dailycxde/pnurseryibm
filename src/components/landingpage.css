@@ -18,8 +18,7 @@ body {
     column-gap: 10%;
     padding-inline: 10%;
     color: var(--text);
-    height: 100vh;
-    overflow-y: hidden;
+    min-height: 100vh;
     box-sizing: border-box;
 }
 
@@ -159,19 +158,18 @@ span {
     right: 0;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1500px) {
     .main {
         flex-direction: column;
         padding-inline: 10%;
-        margin-bottom: 40px;
-        padding-top: 120px;
-        padding-bottom: 50px;
-        overflow-y: hidden;
-        max-width: 100%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        max-width: 100%;   
     }
 
     .abtus1 {
         margin-top: 50px;
+        text-align: center;
     }
 
     .abtus2 {
