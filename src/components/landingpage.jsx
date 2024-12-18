@@ -59,7 +59,7 @@ function Landing() {
 
             <div className="abtus2">
                 <h3>
-                    Welcome to <span>Paradise</span>, Where Green Meets Serenity
+                    Welcome to <span>Cloud</span>, Where Green Meets Serenity
                 </h3>
                 <p>
                     At Paradise Nursery, we are passionate about bringing nature closer to you. Our mission is to provide a wide range of 
